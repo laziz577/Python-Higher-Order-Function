@@ -1,5 +1,5 @@
-nums = [2, 4, 6, 8]
-result = map(
-    lambda n: n * 5 ,nums)
+numbers = [4, -2, 0, 7, -9, 3, -1, 5]
 
-print(list(result))
+nums = list(filter(
+    lambda n: n >= 0,numbers))
+print(nums)
